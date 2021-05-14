@@ -33,5 +33,7 @@ namespace VendorOrderTracker.Tests
       List<Order> result = Order.GetAll();
       CollectionAssert.AreEqual(newList, result);
     }
+    [TestMethod]
+
   }
 }
