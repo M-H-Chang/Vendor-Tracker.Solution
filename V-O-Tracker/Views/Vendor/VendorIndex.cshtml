@@ -1,4 +1,4 @@
-@using V-O-Tracker.Models;
+@using VendorOrderTracker.Models;
 
 <h1>vendors</h1>
 
@@ -7,9 +7,9 @@
   <h3>No vendors have been added yet!</h3>
 }
 
-@foreach (Category category in Model)
+@foreach (Vendor vendor in Model)
 {
-  <h3><a href='/vendors/@vendor.Id'>@vendor.Name</a></h3>
+  <h3><a href='/vendor/@vendor.Id'>@vendor.Name</a></h3>
 }
 
 <p><a href='/'>Back home</a></p>
