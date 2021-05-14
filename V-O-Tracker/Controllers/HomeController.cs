@@ -7,7 +7,7 @@ namespace VendorOrderTracker.Controllers
   {
 
     [HttpGet("/")]
-    public ActionResult Index()
+    public ActionResult HomeIndex()
     {
       return View();
     }
